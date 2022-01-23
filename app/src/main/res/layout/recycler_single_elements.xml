@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/forid"
+        android:layout_width="120dp"
+        android:text="id"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/forname"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/foraddress"
+        android:layout_marginTop="60dp"
+        android:layout_width="150dp"
+        android:text="address"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
